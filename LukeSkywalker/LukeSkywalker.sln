@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LukeSkywalker.UI", "LukeSkywalker.UI\LukeSkywalker.UI.csproj", "{BE399E06-8F51-4F65-91B1-C10AE5AF77C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LukeSkywalker.Services", "LukeSkywalker.Services\LukeSkywalker.Services.csproj", "{90F3D83F-DCA5-491B-9293-70B974B27949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LukeSkywalker.Integrations", "LukeSkywalker.Integrations\LukeSkywalker.Integrations.csproj", "{3DB26F53-097C-4EFB-82C9-75CC35EE79B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LukeSkywalker.UnitTest", "LukeSkywalker.UnitTest\LukeSkywalker.UnitTest.csproj", "{FAA84169-2A0A-4ADE-A686-A12335F4C2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LukeSkywalker.Core", "LukeSkywalker.Core\LukeSkywalker.Core.csproj", "{FDB3BAD2-1D1E-4E5E-AD98-4B3B2F025FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE399E06-8F51-4F65-91B1-C10AE5AF77C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE399E06-8F51-4F65-91B1-C10AE5AF77C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE399E06-8F51-4F65-91B1-C10AE5AF77C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE399E06-8F51-4F65-91B1-C10AE5AF77C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F3D83F-DCA5-491B-9293-70B974B27949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F3D83F-DCA5-491B-9293-70B974B27949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F3D83F-DCA5-491B-9293-70B974B27949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F3D83F-DCA5-491B-9293-70B974B27949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB26F53-097C-4EFB-82C9-75CC35EE79B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB26F53-097C-4EFB-82C9-75CC35EE79B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB26F53-097C-4EFB-82C9-75CC35EE79B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB26F53-097C-4EFB-82C9-75CC35EE79B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA84169-2A0A-4ADE-A686-A12335F4C2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA84169-2A0A-4ADE-A686-A12335F4C2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA84169-2A0A-4ADE-A686-A12335F4C2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA84169-2A0A-4ADE-A686-A12335F4C2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB3BAD2-1D1E-4E5E-AD98-4B3B2F025FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB3BAD2-1D1E-4E5E-AD98-4B3B2F025FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB3BAD2-1D1E-4E5E-AD98-4B3B2F025FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB3BAD2-1D1E-4E5E-AD98-4B3B2F025FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B189B16A-048D-40A6-B5B9-0368C3673B44}
+	EndGlobalSection
+EndGlobal

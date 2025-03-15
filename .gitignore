@@ -1,0 +1,98 @@
+## Ignore build output folders
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]eploy/
+[Dd]otnet/
+[Dd]ebug-netcoreapp*/
+[Dd]ebug-*/
+[Dd]evelopment/
+
+## Ignore temporary ASP.NET files
+[Tt]emp/
+[Tt]empTest/
+
+## Ignore user-specific files
+.idea/
+.vscode/
+
+## User-specific files for Visual Studio
+.vs/
+.vs2019/
+.vs2017/
+.vs2015/
+.vscode/
+
+## Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Windows Installer files (common extensions)
+*.cab
+*.pdb
+*.exe
+*.dll
+
+## Windows Installer files (common extensions)
+*.cab
+*.pdb
+
+## Windows Installer files
+*.vsix
+
+## User-specific files for Visual Studio for Mac
+.vscode/
+
+## JetBrains Rider
+.idea/
+
+## User-specific files for Xamarin Studio
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.idea/
+
+# User-specific files for Rider
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+
+## .NET Core build files
+project.lock.json
+project.fragment.lock.json
+
+## .NET Core directories
+.vs2019/
+.vs2017/
+
+# Local History for Rider
+.idea/.idea
+
+## Windows Installer files
+*.pdb
+*.obj
+
+# .NET Core build files
+project.lock.json
+
+## Windows Installer files
+*.msi
+
+# User-specific files for Visual Studio for Mac
+.idea/
+
+# Windows Installer files (files from NuGet)
+# *.pdb
+# *.exe
+
+## Windows Installer files
+*.msi
+/LukeSkywalker/LukeSkywalker.Core/obj/
+/LukeSkywalker/LukeSkywalker.Integrations/obj/
+/LukeSkywalker/LukeSkywalker.Services/obj/
+/LukeSkywalker/LukeSkywalker.UI/obj/
+/LukeSkywalker/LukeSkywalker.UnitTest/obj/
