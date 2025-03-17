@@ -1,16 +1,18 @@
 ﻿using LukeSkywalker.Core;
 using LukeSkywalker.Core.Dtos;
+using Microsoft.Extensions.Logging;
 
 namespace LukeSkywalker.UI.Modules;
 
-public interface IConcatIntoOneInstance : IBaseModule
+public interface IConcatIntoOneInstance
 {
     FinalLukeObject ConcatIntoOne(CharacterFullInfo characterFullInfo, List<MovieDto> movies, List<StarshipDto> starships, List<VehicleDto> vehicles);
 }
-public class ConcatIntoOneInstance : IConcatIntoOneInstance
+public class ConcatIntoOneInstance(ILogger<IConcatIntoOneInstance> logger) : IConcatIntoOneInstance
 {   
     public FinalLukeObject ConcatIntoOne(CharacterFullInfo characterFullInfo, List<MovieDto> movies, List<StarshipDto> starships, List<VehicleDto> vehicles)
     {
+        logger.LogInformation("Combining data");
         return new FinalLukeObject()
         {
             Name = characterFullInfo.Name,
@@ -26,8 +28,5 @@ public class ConcatIntoOneInstance : IConcatIntoOneInstance
             Vehicles = vehicles
         };
     }
-
-    public string GetTitle()
-        => "Combining data";
 }
 

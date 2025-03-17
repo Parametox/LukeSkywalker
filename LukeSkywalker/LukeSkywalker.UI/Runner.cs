@@ -11,15 +11,6 @@ public interface IRunner
 
 public class Runner : IRunner
 {
-    /*
-     Odpyta API: http://swapi.dev/api/people/1/
-    Pobierze nazwy wszystkich filmów,
-    pojazdów i
-    statków, na których się znajdował
-     
-    Obiekt proszę zapisać w formacie json do pliku txt
-    Logowanie
-     */
     private readonly ILogger<Runner> _logger;
     private readonly IServiceProvider _configuration;
 
@@ -31,6 +22,8 @@ public class Runner : IRunner
 
     public async Task Run(int id)
     {
+        _logger.LogInformation($"Runner started for id: {id}");
+
         var infoAboutLuke = _configuration.GetService<IInfoAboutLuke>();
         var infoAboutMovies = _configuration.GetService<IInfoAboutMovies>();
         var infoAboutVehicles = _configuration.GetService<IInfoAboutVehicles>();
@@ -46,5 +39,8 @@ public class Runner : IRunner
         var final = concatIntoOneInstance!.ConcatIntoOne(fullInfo, movies, starships, vehicles);
 
         await saveToJson!.SaveFile(final);
+
+        _logger.LogInformation($"Runner complete successfully for id: {id}");
+
     }
 }
