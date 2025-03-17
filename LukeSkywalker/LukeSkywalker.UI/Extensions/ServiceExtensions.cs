@@ -9,16 +9,11 @@ public static class ServiceExtensions
 {
     public static IServiceCollection ConfigureAutoMapper(this IServiceCollection serviceCollection)
     {
-
-
         return serviceCollection;
     }
 
-
     public static IServiceCollection RegisterServices(this IServiceCollection serviceCollection)
     {
-
-
         serviceCollection.AddTransient<IRunner, Runner>();
 
         serviceCollection.AddScoped<IVehicleService, VehicleService>();
@@ -32,8 +27,7 @@ public static class ServiceExtensions
         serviceCollection.AddScoped<IInfoAboutStarships, InfoAboutStarships>();
         serviceCollection.AddScoped<IConcatIntoOneInstance, ConcatIntoOneInstance>();
         serviceCollection.AddScoped<ISaveToJson, SaveToJson>();
-        
-        
+                
         return serviceCollection;
     }
 }

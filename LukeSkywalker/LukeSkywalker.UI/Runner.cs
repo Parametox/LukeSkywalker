@@ -41,6 +41,5 @@ public class Runner : IRunner
         await saveToJson!.SaveFile(final);
 
         _logger.LogInformation($"Runner complete successfully for id: {id}");
-
     }
 }

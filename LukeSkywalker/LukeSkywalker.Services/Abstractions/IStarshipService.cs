@@ -5,6 +5,5 @@ namespace LukeSkywalker.Services.Abstractions;
 public interface IStarshipService
 {
     Task<List<StarshipDto>> GetInfoAboutStarships(List<int> ids);
-
 }
 

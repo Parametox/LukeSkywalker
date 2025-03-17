@@ -22,6 +22,5 @@ public class CharacterFullInfo
     public List<string> Species { get; set; }   
     public List<string> Vehicles { get; set; }  
     public List<string> Starships { get; set; } 
-
 }
 

@@ -38,42 +38,6 @@ public class RestApiInvoker
         return default;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     private void ConfigureDefaultHeaders(RestClient restClient)
     {
         restClient.AddDefaultHeader("Content-Type", "application/json");

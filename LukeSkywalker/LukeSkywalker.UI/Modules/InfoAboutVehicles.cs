@@ -8,6 +8,7 @@ public interface IInfoAboutVehicles
 {
     Task<List<VehicleDto>> GetInfo(List<string> vehicles);
 }
+
 public class InfoAboutVehicles(IVehicleService vehicleService, ILogger<IInfoAboutVehicles> logger) : IInfoAboutVehicles
 {   
     public async Task<List<VehicleDto>> GetInfo(List<string> vehicles)

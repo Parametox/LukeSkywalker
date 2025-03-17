@@ -35,8 +35,7 @@ try
 
     Console.WriteLine("Write Id to get data and press ENTER.\n===[INFO] 1 for Luke Skywalker [INFO]===");
 
-    //await runner.Run(int.Parse(Console.ReadLine()));
-    await runner.Run(1);
+    await runner.Run(int.Parse(Console.ReadLine()));
 
     Console.WriteLine("Press ANY key to exit");
     Console.ReadKey();
@@ -49,7 +48,6 @@ catch (Exception ex)
 }
 finally
 {
-    // Ensure to flush and stop internal timers/threads before application-exit (Avoid segmentation fault on Linux)
     LogManager.Shutdown();
 }
 
